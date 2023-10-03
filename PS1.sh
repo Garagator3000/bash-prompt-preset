@@ -1,4 +1,5 @@
 # Asreix - if you branch have a not indexing changes
+# When you make git init - make initial commit
 function gbranch() {
     if [ -d ".git" ]; then
         if output="$(git status --porcelain)" && [ -z "$output" ]; then
